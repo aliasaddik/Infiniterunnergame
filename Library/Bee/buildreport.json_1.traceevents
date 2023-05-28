@@ -1,0 +1,800 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1667776157529292, "dur": 4776413, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667776157529691, "dur": 3608, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667776157533302, "dur": 41632, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667776157574937, "dur": 494973, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667776158069914, "dur": 4234276, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667776162304193, "dur": 1511, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667776162306686, "dur": 32, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1667776157744034, "dur": 290373, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667776157745821, "dur": 91547, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667776157984980, "dur": 12940, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667776157997928, "dur": 36448, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667776158000391, "dur": 32021, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667776158047886, "dur": 3697, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667776158045639, "dur": 6009, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667776162306938, "dur": 427, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1667776158169959, "dur":4947, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776158174924, "dur":440, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1667776158175491, "dur":109, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1667776158175608, "dur":1670, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1667776158177435, "dur":3875, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776158181310, "dur":4, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269118, "dur":116, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269234, "dur":54, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269288, "dur":13, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269301, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269333, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269341, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269362, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269368, "dur":40, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269408, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269415, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269434, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269439, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269458, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269464, "dur":36, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269500, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269508, "dur":47, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269555, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269597, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162269880, "dur":9570, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1667776158177392, "dur":3965, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776158181368, "dur":18447, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776158199855, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667776158199859, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776158200089, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667776158200108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776158205413, "dur":41632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667776158247051, "dur":24660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1667776158271726, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776158271785, "dur":3036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1667776158274957, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1667776158275349, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776158275444, "dur":384466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1667776158660072, "dur":33331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776158693443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776158693459, "dur":13010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776158706541, "dur":83690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776158790239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776158790254, "dur":8010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776158798325, "dur":209240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776159007571, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776159007587, "dur":33478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776159041143, "dur":18625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776159059776, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776159059792, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776159061732, "dur":34646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776159096386, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776159096401, "dur":12192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776159108653, "dur":233315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776159341975, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776159341990, "dur":7829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776159349889, "dur":23930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776159373824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776159373837, "dur":7488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776159381394, "dur":67735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776159449134, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776159449162, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776159450954, "dur":22799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776159473760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776159473774, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776159475517, "dur":9129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776159484654, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776159484670, "dur":5642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776159490372, "dur":53920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776159547166, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776159547184, "dur":38948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776159594680, "dur":28818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776159623505, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776159623521, "dur":18839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776159642424, "dur":70405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776159712957, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776159713079, "dur":10052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776159723211, "dur":91075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776159814294, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776159814312, "dur":6636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776159821011, "dur":185097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776160006120, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776160006186, "dur":4996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776160011250, "dur":509476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776160520736, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776160520755, "dur":17775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776160538591, "dur":152961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776160691560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776160691577, "dur":23140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1667776160714783, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776160714891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776160714906, "dur":351284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776161067099, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776161067187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776161067201, "dur":152351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776161219736, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776161219805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776161219818, "dur":613817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667776161833697, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667776161833780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776161833796, "dur":5700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667776161839563, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1667776161839665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776161839682, "dur":2285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1667776161842026, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667776161842086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776161842098, "dur":2906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667776161845065, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667776161845138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776161845150, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667776161847386, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1667776161847480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776161847496, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1667776161849403, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1667776161849475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776161849490, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1667776161851020, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1667776161851085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667776161851095, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1667776161852886, "dur":416056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776158177644, "dur":3758, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776158181402, "dur":18451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776158199856, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1667776158200303, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776158216069, "dur":34592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1667776158250857, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1667776158251220, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776158251249, "dur":408673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1667776158659995, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776158660087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776158660101, "dur":136653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776158797197, "dur":19852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1667776158817057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776158817074, "dur":48867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1667776158866010, "dur":17403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1667776158883421, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776158883437, "dur":50657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1667776158934162, "dur":17549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1667776158951718, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776158951734, "dur":6499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1667776158958293, "dur":132907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159091208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776159091223, "dur":32639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159123931, "dur":110255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159234194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776159234209, "dur":45409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159279674, "dur":110348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159390028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776159390042, "dur":24419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159414523, "dur":33711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159448242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776159448257, "dur":2006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159450338, "dur":46085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159496431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776159496446, "dur":4817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159501323, "dur":10060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1667776159511394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776159511415, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1667776159513086, "dur":50847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159563941, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776159563960, "dur":21155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159585185, "dur":10182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1667776159595375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776159595392, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1667776159597181, "dur":99008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159696201, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776159696222, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159698604, "dur":129236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159827848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776159827908, "dur":2767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159830742, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159830809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776159830824, "dur":49446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776159880332, "dur":147739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776160028079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776160028094, "dur":100767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776160128919, "dur":100969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776160229896, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776160229913, "dur":49113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776160279086, "dur":80203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1667776160359297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776160359313, "dur":45331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1667776160404707, "dur":442412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776160847127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776160847158, "dur":1986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776160849198, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776160849251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776160849264, "dur":216903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776161066231, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776161066291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776161066320, "dur":380689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776161447085, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1667776161447165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776161447178, "dur":201042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1667776161648291, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776161648357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667776161648378, "dur":620297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667776162268756, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1667776162268758, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667776158177870, "dur":3579, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667776158181450, "dur":18389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667776158199856, "dur":103509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1667776158303374, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667776158303922, "dur":155276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1667776158459328, "dur":1369630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776159828965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667776159828977, "dur":41625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776159870675, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776159870748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667776159870761, "dur":35779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776159906604, "dur":57300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776159963926, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667776159963946, "dur":3954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776159967961, "dur":369874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776160337877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667776160337893, "dur":65174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776160403141, "dur":282389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776160685537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667776160685552, "dur":25841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776160711454, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776160711518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667776160711545, "dur":328430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776161040038, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776161040102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667776161040117, "dur":299453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776161339650, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776161339717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667776161339732, "dur":532339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667776161872164, "dur":396674, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776158178147, "dur":3397, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776158181545, "dur":18321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776158199867, "dur":861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667776158200813, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776158227207, "dur":462956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667776158690232, "dur":12593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1667776158702832, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776158702848, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1667776158704650, "dur":68407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776158773065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776158773080, "dur":24757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776158797898, "dur":30103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1667776158828011, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776158828030, "dur":62543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1667776158890640, "dur":47173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776158937821, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776158937837, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776158940157, "dur":66091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159006256, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776159006272, "dur":35797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159042131, "dur":73117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159115257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776159115273, "dur":4228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159119569, "dur":36673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159156250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776159156266, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159158793, "dur":160986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159319788, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776159319807, "dur":21058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159340929, "dur":84839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159425778, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776159425906, "dur":2629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159428598, "dur":155643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159584258, "dur":272, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776159584680, "dur":2569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159587310, "dur":220445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159807765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776159807782, "dur":3258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159811114, "dur":71107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159882262, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776159882302, "dur":4165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776159886524, "dur":142305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776160028836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776160028850, "dur":92536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776160121454, "dur":1415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1667776160122876, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776160122892, "dur":18706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1667776160141659, "dur":13649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1667776160155316, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776160155332, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1667776160157828, "dur":245892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776160403726, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776160403743, "dur":5413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776160409215, "dur":1460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776160410687, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776160410703, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776160412646, "dur":10694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1667776160423347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776160423365, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1667776160424996, "dur":10130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1667776160435135, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776160435151, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1667776160437161, "dur":97412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776160534583, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776160534601, "dur":11824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776160546506, "dur":157896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776160704411, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776160704427, "dur":7794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776160712280, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776160712337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776160712349, "dur":689011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776161401428, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776161401503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776161401516, "dur":339790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776161741519, "dur":116700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776161858227, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667776161858245, "dur":32220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667776161890536, "dur":378308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776158178445, "dur":3141, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776158181587, "dur":18264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776158199858, "dur":35775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1667776158235658, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776158235721, "dur":11480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1667776158247330, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1667776158247775, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776158248020, "dur":6473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1667776158254673, "dur":202488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1667776158457169, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776158457187, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1667776158459223, "dur":34120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776158493351, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776158493364, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776158495333, "dur":66407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject.exe" }}
+,{ "pid":12345, "tid":5, "ts":1667776158561747, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776158561760, "dur":5859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject.exe" }}
+,{ "pid":12345, "tid":5, "ts":1667776158567677, "dur":123115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776158690799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776158690814, "dur":10143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776158701021, "dur":10341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776158711371, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776158711387, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776158712948, "dur":61040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776158773995, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776158774010, "dur":92231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776158866316, "dur":45522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776158911846, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776158911863, "dur":27059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776158938989, "dur":98243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776159037240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776159037256, "dur":4299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776159041615, "dur":34468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UIElementsNativeModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159076092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776159076107, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UIElementsNativeModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159077773, "dur":295918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776159373697, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776159373712, "dur":5524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776159379299, "dur":10352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159389657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776159389670, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159392068, "dur":10098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159402175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776159402192, "dur":12814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159415068, "dur":19217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159434292, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776159434308, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159436054, "dur":9232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159445293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776159445307, "dur":4309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159449686, "dur":14520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159464214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776159464230, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159465843, "dur":64563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159530414, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776159530432, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159532035, "dur":30929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159562971, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776159562986, "dur":22221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159585269, "dur":79390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776159664669, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776159664708, "dur":5263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776159670059, "dur":97246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776159767342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776159767355, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776159769601, "dur":108456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159878097, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776159878114, "dur":60220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776159938408, "dur":116651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776160055071, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776160055087, "dur":78370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776160133521, "dur":397496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776160531025, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776160531040, "dur":13115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776160544223, "dur":9125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776160553356, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776160553373, "dur":1682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1667776160555117, "dur":1460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776160556585, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776160556601, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776160558141, "dur":119732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776160677881, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776160677897, "dur":33694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776160711652, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776160711711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776160711724, "dur":511347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776161223138, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776161223234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776161223247, "dur":425797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776161649112, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776161649180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667776161649192, "dur":414439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667776162063853, "dur":205273, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776158178695, "dur":2926, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776158181621, "dur":18274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776158199898, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1667776158200333, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776158217750, "dur":42888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1667776158260803, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1667776158261169, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776158263258, "dur":194933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1667776158458266, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1667776158458474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776158458489, "dur":10573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1667776158469139, "dur":130937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1667776158600118, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776158600130, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1667776158602697, "dur":8074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776158610779, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776158610794, "dur":20802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776158631662, "dur":108253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776158739957, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776158739974, "dur":57704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776158797745, "dur":42163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776158839917, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776158839934, "dur":26504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776158866497, "dur":49044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776158915578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776158915592, "dur":41947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776158957717, "dur":19600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776158977327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776158977343, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776158979389, "dur":12696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UNETModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776158992089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776158992099, "dur":2565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UNETModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776158994734, "dur":131921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159126664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159126680, "dur":19750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159146491, "dur":88612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159237986, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159238004, "dur":4273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159242334, "dur":14512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159256860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159256875, "dur":4801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159261746, "dur":83103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159344856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159344869, "dur":5917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159350848, "dur":39645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159390499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159390512, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159393046, "dur":50794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159443848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159443863, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159446952, "dur":129027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159575988, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159576005, "dur":10341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159586413, "dur":51887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159638308, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159638324, "dur":3067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159641463, "dur":125681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159767152, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159767182, "dur":5368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159772615, "dur":84439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159857063, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159857080, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159859074, "dur":11221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159870308, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159870326, "dur":2972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159873361, "dur":10145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159883514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159883527, "dur":2381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159885977, "dur":9925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159895910, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159895940, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159897758, "dur":9473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159907237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159907252, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159908880, "dur":1080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ARModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159909967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159910018, "dur":2922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ARModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776159913000, "dur":33858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159946865, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776159946880, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776159949325, "dur":83569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776160032902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776160032917, "dur":95515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776160128499, "dur":106205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776160234732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776160234748, "dur":42569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776160277375, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776160277442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776160277457, "dur":162095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776160439622, "dur":23060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776160462690, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776160462706, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776160464987, "dur":76281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776160541276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776160541294, "dur":5295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776160546662, "dur":12290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776160558961, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776160558978, "dur":31478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776160590538, "dur":12626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776160603170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776160603220, "dur":3974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776160607266, "dur":10085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776160617360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776160617375, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776160619147, "dur":10455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776160629610, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776160629626, "dur":1899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1667776160631594, "dur":36464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776160668102, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776160668131, "dur":16187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776160684380, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776160684443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776160684457, "dur":497771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776161182286, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776161182343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776161182357, "dur":325775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776161508194, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776161508264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776161508280, "dur":233191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667776161741536, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1667776161741808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776161742780, "dur":4515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1667776161747361, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1667776161747425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776161747507, "dur":52651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1667776161800220, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":6, "ts":1667776161800280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776161800324, "dur":3914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":6, "ts":1667776161804301, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1667776161804362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776161804376, "dur":7846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1667776161812346, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1667776161812411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776161812423, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1667776161814847, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1667776161814914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776161814927, "dur":26617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1667776161841621, "dur":52200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1667776161893829, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667776161893850, "dur":29533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1667776161923460, "dur":345681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776158178918, "dur":2736, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776158181655, "dur":18208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776158199865, "dur":38424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1667776158238302, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776158238369, "dur":8949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1667776158247499, "dur":44136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1667776158291661, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776158291694, "dur":4551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1667776158296344, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1667776158296606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776158296627, "dur":162170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1667776158458870, "dur":225954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776158684833, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776158685009, "dur":14614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776158699686, "dur":159816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776158859544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776158859560, "dur":55549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776158915173, "dur":79075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776158994256, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776158994271, "dur":2275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776158996613, "dur":30815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159027436, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159027452, "dur":13933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159041459, "dur":64518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159105985, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159106001, "dur":11812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159117899, "dur":38980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159156885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159156897, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159159736, "dur":75153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159234894, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159234908, "dur":13436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159248403, "dur":99741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159348151, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159348167, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159350460, "dur":9698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159360167, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159360183, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159362056, "dur":11093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159373161, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159373179, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159375116, "dur":73812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159448934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159448948, "dur":2273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159451279, "dur":9120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159460407, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159460423, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159462351, "dur":81351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159543710, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159543727, "dur":10182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159553973, "dur":91606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159645587, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159645628, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159647485, "dur":52433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159699926, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159699943, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159701992, "dur":10984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159712982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159712997, "dur":10252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159723313, "dur":102343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159825666, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159825684, "dur":4773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776159830527, "dur":134113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159964646, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159964660, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159966590, "dur":12230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159978828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776159978844, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776159980875, "dur":74507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776160055388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776160055402, "dur":70272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776160125750, "dur":274863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776160400620, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776160400634, "dur":7289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776160408037, "dur":11649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776160419697, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776160419715, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776160422050, "dur":90937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776160512996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776160513012, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776160515171, "dur":10252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776160525431, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776160525447, "dur":13400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776160538908, "dur":1891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776160540808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776160540826, "dur":5691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776160546589, "dur":11261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776160557857, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776160557872, "dur":2201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776160560135, "dur":40367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776160600510, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776160600538, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776160602686, "dur":2711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776160605406, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776160605421, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776160607464, "dur":135408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776160742880, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776160742896, "dur":107366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776160850322, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776160850402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776160850414, "dur":247132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776161097611, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776161097676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776161097688, "dur":552014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667776161649781, "dur":175537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776161825325, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667776161825341, "dur":40364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1667776161865808, "dur":403020, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776158179126, "dur":2569, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776158181695, "dur":18152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776158199858, "dur":558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1667776158200435, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776158218849, "dur":33269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1667776158252260, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1667776158252604, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776158254335, "dur":6362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1667776158260867, "dur":43899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1667776158304774, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776158304793, "dur":153410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1667776158458274, "dur":68836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776158527118, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776158528070, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776158530259, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1667776158530795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776158532025, "dur":32092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1667776158564187, "dur":12268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776158576463, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776158581728, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776158583272, "dur":16713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776158599992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776158600124, "dur":1502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776158601685, "dur":42219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776158643913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776158643928, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776158645614, "dur":27859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776158673481, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776158673497, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776158675002, "dur":205450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776158880461, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776158880477, "dur":14555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776158895099, "dur":19126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776158914233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776158914247, "dur":25511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776158939821, "dur":52249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776158992083, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776158992099, "dur":47553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159039731, "dur":54080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776159093818, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159093834, "dur":14350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776159108249, "dur":9439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159117696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159117711, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159119919, "dur":9307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159129235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159129250, "dur":5708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159135016, "dur":10969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159146032, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159146048, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159147526, "dur":9085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159156618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159156631, "dur":2866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159159555, "dur":39453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159199016, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159199031, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159200713, "dur":8946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159209699, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159209715, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159211205, "dur":38392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776159249603, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159249618, "dur":3331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776159253010, "dur":9084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159262132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159262147, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159263758, "dur":35367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159299135, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159299154, "dur":34699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159333929, "dur":10798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159344739, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159344760, "dur":5329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159350173, "dur":39011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776159389193, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159389210, "dur":2931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776159392201, "dur":77874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776159470084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159470101, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776159472027, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776159472096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159472110, "dur":160946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776159633118, "dur":21682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159654809, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159654826, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159656705, "dur":16348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159673061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159673078, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159674872, "dur":120977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159795861, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159795878, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159799285, "dur":9626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159808922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776159808939, "dur":21184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776159830206, "dur":230393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776160060607, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776160060624, "dur":73650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776160134344, "dur":264915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776160399267, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776160399282, "dur":4747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776160404097, "dur":169965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776160574074, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776160574090, "dur":74912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1667776160649064, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776160649123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776160649137, "dur":423159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776161072358, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776161072417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776161072432, "dur":376812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776161449321, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776161449387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776161449402, "dur":366740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667776161816203, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1667776161816265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776161816277, "dur":28804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1667776161845135, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1667776161845201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776161845212, "dur":2784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1667776161848059, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1667776161848125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776161848135, "dur":1994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1667776161850209, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1667776161850332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776161850348, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1667776161852577, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1667776161852761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667776161852776, "dur":8067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lolas/OneDrive/Desktop/ACL/T15_46_7537_AliaAhmed/miniProject_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1667776161860926, "dur":407939, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667776162284178, "dur":9120, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1667776162307488, "dur": 15439, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667776162306653, "dur": 16345, "ph": "X", "name": "Write chrome-trace events", "args": {} },

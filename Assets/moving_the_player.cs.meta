@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8cfb6886050b50446a8b8502402a8030
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - plane: {fileID: 2978821026526057305, guid: 8df96239fee56dc4db7081a679638ba2, type: 3}
+  - abilityOrb: {fileID: 5036612253493761231, guid: 15e068dbac7d3de479711774995e8037, type: 3}
+  - healthOrb: {fileID: 7097878672286736109, guid: a60b69cedc00b0649a47ccf64c7a5ecf, type: 3}
+  - oneLane: {fileID: 6167175396740215060, guid: 0322fd3b83baba544987e50bd4481f70, type: 3}
+  - twoLane: {fileID: 8565169910367847754, guid: a1922917a2c2ec24dacf24c34cf0019e, type: 3}
+  - threeLane: {fileID: 4844553040002405824, guid: caeae11cbff52aa4b8398a0f5a993c3b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
